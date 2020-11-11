@@ -5,7 +5,7 @@ node_js:
 
 branches:
    only:
-      - master # will only build for master branch commits
+      - main # will only build for master branch commits
 
 before_script:
    - npm install -g --silent firebase-tools # installs firebase to run firebase deploy
